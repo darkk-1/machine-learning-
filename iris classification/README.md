@@ -23,20 +23,18 @@ The model is trained and evaluated using the **Iris dataset**, one of the most w
 
 ## 📂 Project Structure
 
-iris_decision_tree_project/
-│
-├── data/
-│   └── iris.csv                      # Dataset file (optional)
+iris_decision_tree_project/  
 │
 ├── notebooks/
-│   └── Iris_Flower_Classification_using_Supervised_Machine_Learning_.ipynb             # Visualization of the Decision Tree
+│   └── Iris_Flower_Classification_using_Supervised_Machine_Learning_.ipynb            
 │
 ├── model/
 │   └── decision_tree_model.pkl       # Saved trained model (optional)
 │
 ├── requirements.txt                  # List of dependencies
 ├── README.md                         # Project documentation
-└── architecture_diagram.png          # Model architecture visualization
+├── model/
+│   └── architecture_diagram.png          # Model architecture visualization
 
 ---
 
@@ -125,3 +123,4 @@ Dinesh Kumar M
 ---
 
 Would you like me to generate this as a downloadable **`README.md` file** (like before)?
+
