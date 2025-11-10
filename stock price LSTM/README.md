@@ -23,13 +23,7 @@ The model is trained on historical stock data (such as closing prices) and learn
 Stock-Price-Prediction-LSTM/
 │
 ├── README.md                     # Project documentation
-├── requirements.txt              # Python dependencies
-├── main.py                       # Main script for training or inference
-├── .gitignore                    # Ignore unnecessary files/folders
-├── config.yaml                   # Configuration for model parameters
-│
-├── data/
-│   ├── sample_data.csv           # Sample dataset or link to dataset
+├── requirements.txt              # Python dependencies                   # 
 │
 ├── model/
 │   ├── lstm_model.h5             # Saved trained model
@@ -37,13 +31,6 @@ Stock-Price-Prediction-LSTM/
 │
 ├── notebooks/
 │   └── stock_price_LSTM.ipynb    # Jupyter notebook (your main file)
-│
-├── src/
-│   ├── data_preprocessing.py     # Data loading, cleaning, scaling
-│   ├── model_builder.py          # LSTM model architecture
-│   ├── train.py                  # Training script
-│   ├── evaluate.py               # Evaluation and visualization
-│   └── utils.py                  # Helper functions
 │
 └── docs/
     └── architecture_diagram.png  # Optional: architecture or workflow diagram
