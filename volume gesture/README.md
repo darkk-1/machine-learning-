@@ -36,6 +36,7 @@ bash
 Copy code
 python volume.py
 Press 'q' to quit the application.
+---
 
 🧩 Requirements File Example
 ini
@@ -45,6 +46,8 @@ mediapipe==0.10.9
 numpy==2.1.1
 pycaw==20240210
 comtypes==1.4.6
+
+---
 📸 Example Output
 The webcam window shows:
 
@@ -53,12 +56,12 @@ Hand landmarks (connected points)
 Volume bar indicating current level
 
 Volume percentage displayed in real-time
-
+---
 🧑‍💻 Author
 Dinesh Kumar M
 📧 dk895361@gmail.com
 🔗 LinkedIn
-
+---
 📜 License
 Open-source under the MIT License.
 
@@ -70,4 +73,5 @@ Copy code
 ✅ Once saved, this file will automatically render beautifully on GitHub with headers, code blocks, and emojis.  
 
 Would you like me to give you a `.gitignore` file next (for this project)?
+
 
