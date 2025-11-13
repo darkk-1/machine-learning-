@@ -31,7 +31,7 @@ It uses **OpenCV** for real-time video capture, **MediaPipe** for hand tracking,
 git clone https://github.com/yourusername/gesture_volume_control.git
 cd gesture_volume_control
 pip install -r requirements.txt
-▶️ Run the Project
+## ▶️ Run the Project
 bash
 Copy code
 python volume.py
@@ -70,3 +70,4 @@ Copy code
 ✅ Once saved, this file will automatically render beautifully on GitHub with headers, code blocks, and emojis.  
 
 Would you like me to give you a `.gitignore` file next (for this project)?
+
