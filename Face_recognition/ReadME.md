@@ -23,8 +23,7 @@ This repository contains the code and necessary files for a face recognition sys
 | **`svm_model_160x160.pkl`** | The final **trained SVC model** (the classifier). This file is loaded by `realtime.py`. |
 | **`haarcascade_frontalface_default.xml`** | OpenCV's pre-trained classifier used for fast face detection in the `realtime.py` script. |
 | **`face_recognition_model.pkl`** | An alternative or previous version of the saved trained SVC model. |
-| **`Photo-Based Face Verification in Video Using FaceNet.py`** | A script for verifying if a single target person appears in a video based on cosine similarity. |
-| **`encoder.pkl`** *(Crucial)* | A saved `LabelEncoder` object, which maps numerical class IDs back to actual names/labels. Must be included for inference. |
+
 
 ---
 
@@ -76,5 +75,6 @@ To add new individuals to your recognition database:
 Place the new face images into class-named folders in a new, separate directory (e.g., /NewFacesToEmbed/).
 
 Update the NEW_FACES_DIR path inside the update.py script to point to this new directory.
+
 
 Run the update script:
