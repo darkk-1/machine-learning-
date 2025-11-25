@@ -1,0 +1,14 @@
+# Core Libraries
+tensorflow
+numpy
+opencv-python
+
+# Face Recognition Libraries
+mtcnn
+keras-facenet
+
+# Machine Learning and Utilities
+scikit-learn
+
+# The exact versions might vary depending on your setup, 
+# but these are the necessary packages.
